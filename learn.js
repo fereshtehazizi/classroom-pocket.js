@@ -76,15 +76,15 @@ export default class Learn {
   this.area.innerHTML = `
     <div class="d-flex justify-content-start"><span class="text-secondary" style="font-size: 14px;">press space to flip the card | click on the flashcard to flip</span></div>
     <div id="fc-wrap" class="flashcard-wrap mx-auto mt-3" style="width: 90%; height: 240px; perspective: 1000px;">
-      <div class="flashcard-inner position-relative w-100 h-100 transition-transform duration-500"></div>
+      <div class="flashcard-inner text-center position-relative w-100 h-100 transition-transform duration-500"></div>
     </div>
 
     <div class="mt-3 d-flex gap-2 justify-content-between">
     <div>
-      <button id="fc-prev" class="btn btn-sm btn-outline-light">← Prev</button>
-      <button id="fc-next" class="btn btn-sm btn-outline-light">Next →</button>
-      <button id="fc-known" class="btn btn-sm btn-success">Known</button>
-      <button id="fc-unknown" class="btn btn-sm btn-warning">Unknown</button>
+      <button id="fc-prev" class="mar-5 btn btn-sm btn-outline-light">← Prev</button>
+      <button id="fc-next" class="mar-5 btn btn-sm btn-outline-light">Next →</button>
+      <button id="fc-known" class="mar-5 btn btn-sm btn-success">Known</button>
+      <button id="fc-unknown" class="mar-5 btn btn-sm btn-warning">Unknown</button>
       </div>
       <div class="text-start mt-2 small-muted">Known:
       <span id="known-count">${this.known.size}</span> / ${cards.length}
