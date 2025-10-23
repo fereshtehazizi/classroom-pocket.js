@@ -54,8 +54,8 @@ export default class Author {
     <div class="d-flex justify-content-between align-items-center mb-2">
       <small class="text-light">press ← / → to flip | Click buttons to flip</small>
       <div class="text-end">
-        <i class="fa-solid fa-play rotate px-4 btn border-secondary border-outline-0 text-light me-1 front-btn"></i>
-          <i class="fa-solid fa-play px-4 btn border-secondary border-outline-0 text-light back-btn"></i>
+        <i class="mar-5 fa-solid fa-play rotate px-4 btn border-secondary border-outline-0 text-light me-1 front-btn"></i>
+          <i class="mar-5 fa-solid fa-play px-4 btn border-secondary border-outline-0 text-light back-btn"></i>
       </div>
     </div>
     <div class="position-relative">
