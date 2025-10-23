@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    max-width: 95%;
+    border-radius: 10px;
+}
+
+.nav-item button {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.title{
+    font-size: 14px;
+    color: #fff;
+}
+
+.sub-title {
+    color: rgb(88, 98, 109);
+    opacity: 2;
+    font-size: 16px;
+
+}
+
+.meta-section {
+    border: 1px solid #696868;
+    border-radius: 10px;
+}
+
+.note-section {
+    border-bottom: 1px solid #696868;
+    border-right: 1px solid #696868;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 0px 0px #383738;
+}
+
+.form-control::placeholder {
+    color: rgb(88, 98, 109);
+    opacity: 2;
+    font-size: 14px;
+}
+
+.label-t {
+    color: rgb(254, 255, 255);
+    font-size: 0.92rem;
+}
+
+.mydeath {
+    padding-top: 15px;
+}
+
+.mydeath-title {
+    margin-bottom: 10px;
+}
+
+textarea {
+    overflow-y: scroll;
+}
+
+.capsule-progress {
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.progress-bar {
+    background: #222;
+    border-radius: 6px;
+    height: 6px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #7b2ff7, #f107a3);
+    border-radius: 6px;
+    transition: width 0.3s ease;
+}
+
+.known {
+    color: #ccc;
+    font-size: 0.85rem;
+}
+
+.flashcard-inner {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.flashcard-inner.flipped {
+    transform: rotateY(180deg);
+}
+
+.flashcard-face {
+    backface-visibility: hidden;
+}
+.rotate,
+.flashcard-back.rotated {
+    transform: rotateY(180deg);
+}
