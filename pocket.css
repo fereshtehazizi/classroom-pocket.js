@@ -106,3 +106,9 @@ textarea {
 .flashcard-back.rotated {
     transform: rotateY(180deg);
 }
+
+@media (max-width: 760px){
+    .mar-5{
+        margin: 5px;
+    }
+}
