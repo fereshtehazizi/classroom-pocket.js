@@ -33,7 +33,7 @@ function renderLibrary(){
     const knownCount = (progress.knownFlashcards || []).length;
     const totalCards = c.flashcardCount || 0;
     const col = document.createElement('div');
-    col.className = 'col-md-4';
+    col.className = 'col-lg-4 col-md-6 col-sm-12';
     col.innerHTML = `
       <div class="card bg-black text-light card-compact p-3 h-100">
             <div class="d-flex justify-content-between">
